@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PrimeNgPjt';
+  data1=10;
+  updateChild(){
+    this.data1=Math.random();
+  }
+  greet(name:string){
+    alert('Hello - ' + name);
+  }
 }
